@@ -4,8 +4,8 @@
 
 package goncurses
 
-// #cgo !darwin,!openbsd,!windows pkg-config: panel
-// #cgo darwin openbsd LDFLAGS: -lpanel
+// #cgo !openbsd,!windows pkg-config: panel
+// #cgo openbsd LDFLAGS: -lpanel
 // #include <panel.h>
 // #include <curses.h>
 import "C"

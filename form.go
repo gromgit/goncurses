@@ -6,8 +6,8 @@
 
 package goncurses
 
-// #cgo !darwin,!openbsd pkg-config: form
-// #cgo darwin openbsd LDFLAGS: -lform
+// #cgo !openbsd pkg-config: form
+// #cgo openbsd LDFLAGS: -lform
 // #include <form.h>
 // #include <stdlib.h>
 import "C"
